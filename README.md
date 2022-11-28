@@ -1,2 +1,1 @@
-# InvMGMT
-sql database project
+
