@@ -266,7 +266,8 @@ AS
 BEGIN
 SELECT*FROM inserted 
 END
-
+						/*         check trigger with insert statement          */
+								
 INSERT INTO inv_user VALUES('heyheyg@yahoo.com','Heyyo','684347','admin','2015-12-29 23:41:02.172')
 
 
@@ -278,7 +279,7 @@ BEGIN
 SELECT*FROM inserted
 END
 
-												/*         check trigger with insert statement          */
+						/*         check trigger with insert statement          */
 
 INSERT INTO transactions VALUES (9,12867,6843,898,0,'Crypto',2);
 
@@ -290,10 +291,9 @@ FOR INSERT
 AS 
 BEGIN
 SELECT*FROM inserted 
-END 
-
-							
-												/*         check trigger with insert statement          */
+END 		
+						/*         check trigger with insert statement          */
+								
 
 INSERT INTO dbo.product VALUES (6,2,3,2,'Slim Jeans',5,599,'2016-04-11 05:14:45.936');
 
